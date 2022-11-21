@@ -25,4 +25,5 @@ jobs:
         run: |
           pip install terraform-local
           tflocal init
+          ls -la
           tflocal apply --auto-approve
